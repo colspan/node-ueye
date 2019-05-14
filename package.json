@@ -4,7 +4,7 @@
   "description": "FFI-based Binding for IDS uEye camera library",
   "main": "lib/camera",
   "scripts": {
-    "install": "(mkdir build; cd build && cmake .. && make) || true",
+    "build-calibration": "(mkdir -p build; cd build && cmake .. && make) || true",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
